@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CEB Calc</title>
+		<link rel="stylesheet" type="text/css" href="myStyle.css">
+	</head>
+	<body>
+		<h1 align="center">Domestic Electricity Bill Calculator</h1>
+		<form method="POST" id="form">
+			<div class="row">
+				<div class="col-40">
+					<label for="unit">No of Units used : </label>
+				</div>
+				<div class="col-40">
+					<input type="number" id="units" name="units" placeholder="Number of Units">
+				</div>
+				<div class="col-20">
+					<label for="siunit">kWh</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-80">
+					<button type ="reset" id="clear">Clear</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-80">
+					<button type ="button" id ="submit">Calculate my Bill</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-40">
+					<label for="amount">Your bill amount is : </label>
+				</div>
+				<div class="col-40">
+					<label for="bill" id="bill">0.00</label>
+				</div>
+				<div class="col-20">
+					<label for="rs">Rs</label>
+				</div>
+			</div>
+		</form>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-50 center">
+					<label for="info">
+						<a href="https://roar.media/english/life/reports/electricity-bill-calculated-analysis">
+						More information on how my bill is calculated
+						</a>
+					</label>
+				</div>
+				<div class="col-50 center">
+					<label for="ceblink">
+						<a href="https://ceb.lk/bill-calculation-commercial/en">
+						Go to CEB website
+						</a>
+					</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-100 center">
+					<label for="name"><b>Created by : Sasna Nawab (2017/ICT/17)</b></label>
+				</div>
+			</div>
+		</div>
+		<script src="myScript.js"></script>
+	</body>
+</html>
